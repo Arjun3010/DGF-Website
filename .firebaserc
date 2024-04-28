@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "dgf-app-83596": {
+      "hosting": {
+        "dgf-website": [
+          "durga-manufacturers"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "dgf-app-83596"
+  }
+}

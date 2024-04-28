@@ -1,0 +1,9 @@
+{
+  "hosting": [
+    {
+      "target": "dgf-website",
+      "source": ".",
+      "frameworksBackend": {}
+    }
+  ]
+}

@@ -94,6 +94,23 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "version": 2
+          },
+          "configurations": {
+            "production": {
+              "buildTarget": "dgf-website:build:production",
+              "serveTarget": "dgf-website:serve:production"
+            },
+            "development": {
+              "buildTarget": "dgf-website:build:development",
+              "serveTarget": "dgf-website:serve:development"
+            }
+          },
+          "defaultConfiguration": "production"
         }
       }
     }
